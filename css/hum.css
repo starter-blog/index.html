@@ -20,16 +20,29 @@ button {
     margin-right: 5px;
 }
 
+#result {
+    width: 100%;
+    text-align: center;
+}
 #submit {
     width: 50%;
     height: 100px;
     font-size: 50px;
     font-weight: bolder;
 }
+
 #idlist * {
     padding: 5px;
 }
 
+.team {
+    margin: auto;
+    margin-top: 25px;
+    width: 80%;
+    border: 1px black solid;
+    font-size: 20px;
+    font-weight: bold;
+}
 .box {
     margin-top: 50px;
 }
