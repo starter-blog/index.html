@@ -4,12 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>랜덤 조편성</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.5/xlsx.full.min.js"></script>
         <link rel="stylesheet" href="../css/hum.css">
-        <script src="../json/data.js"></script>
-        <script src="../js/ticket.js"></script>
         <script src="../js/humteam.js"></script>
     </head>
     <body>
+        <div class="box">
+            <label for="member">참여 명단</label>
+            <input type="file" id="member" onchange="readExcel()">
+        </div>        
         <h1>추첨 조건</h1>
         <div class="box">
             <h3>고려 요소</h3>
@@ -33,7 +36,7 @@
             </div>
         </div>
         <div class="box">
-            <button id="submit">편성</button>
+            <button id="submit" onclick="maketeam()">편성</button>
         </div>
     </body>
 </html>

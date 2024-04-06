@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/CJY/PycharmProjects/ictpy/repository",
-      "program": "c:/Users/CJY/PycharmProjects/ictpy/repository/build/Debug/outDebug",
+      "cwd": "c:/Users/CJY/humanismmt/starter-blog.github.io",
+      "program": "c:/Users/CJY/humanismmt/starter-blog.github.io/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
